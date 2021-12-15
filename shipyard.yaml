@@ -1,0 +1,21 @@
+apiVersion: "spec.keptn.sh/0.2.0"
+kind: "Shipyard"
+metadata:
+  name: "shipyard-sockshop"
+spec:
+  stages:
+    - name: "production"
+      sequences:
+        - name: "remediation"
+          triggeredOn:
+            - event: "production.remediation.finished"
+              selector:
+                match:
+                  evaluation.result: "fail"
+          tasks:
+            - name: "get-action"
+            - name: "action"
+            - name: "evaluation"
+              triggeredAfter: "2m"
+              properties:
+                timeframe: "2m"

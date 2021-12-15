@@ -1,0 +1,34 @@
+{
+  "data": {
+    "labels": {
+      "Problem URL": "link"
+    },
+    "problem": {
+      "ImpactedEntity": "Response time degradation on Web service sockshop.carts.production",
+      "PID": "asdf",
+      "ProblemDetails": {
+        "displayName": "P-21127",
+        "endTime": 1638888240000,
+        "hasRootCause": false,
+        "id": "asdf",
+        "impactLevel": "SERVICE",
+        "severityLevel": "PERFORMANCE",
+        "startTime": 1638887400000,
+        "status": "OPEN"
+      },
+      "ProblemID": "P-21127",
+      "ProblemTitle": "Response time degradation",
+      "ProblemURL": "link",
+      "State": "OPEN",
+      "Tags": "keptn_service:carts, keptn_project:sockshop-[YOUR-FIRST-NAME], keptn_stage:production"
+    },
+    "project": "sockshop-[YOUR-FIRST-NAME]",
+    "service": "carts",
+    "stage": "production"
+  },
+  "source": "dynatrace-service",
+  "specversion": "1.0",
+  "time": "2021-12-07T14:44:59.623Z",
+  "type": "sh.keptn.event.production.remediation.triggered",
+  "shkeptnspecversion": "0.2.3"
+}
