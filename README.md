@@ -37,7 +37,15 @@ This is a hands-on training to explore the capabilities of automated remediation
   * Go to `https://webhook.site` to create a webhook which will be called. Copy to clipboard.
   * Go to **Keptn** > **your project** > **Uniform**
   * Select **webhook-service** and **Add Subscription**
-  * Fill out the form as shown here (*Note:* paste the webhook URL in the field `URL`)
+  * Fill out the form as shown here 
+    * Paste the webhook URL in the field `URL`
+    * The custom payload is: 
+    ```
+    {
+      "action": "{{.data.action.action}}"
+    }
+    ```
+
     ![Webhook](./webhook.png)
 
 * Simulate a problem by triggering the remediation sequence directly. Therefore, open the `trigger_remediaton.yaml` file and change [YOUR-FIRST-NAME] to your first name. Then trigger the remediation using the following command: 
