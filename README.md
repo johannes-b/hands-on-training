@@ -4,8 +4,8 @@ This is a hands-on training to explore the capabilities of automated remediation
 
 ## Prerequisites
 
-* Download **Keptn CLI** from [here](https://github.com/keptn/keptn/releases/tag/0.11.3) and install it on your machine.
-  * Run `keptn version` to verify CLI version to be: `Keptn CLI version: 0.11.3`
+* Download **Keptn CLI** from [here](https://github.com/keptn/keptn/releases/tag/0.13.1) and install it on your machine.
+  * Run `keptn version` to verify CLI version to be: `Keptn CLI version: 0.13.1`
 
 ## Training
 
