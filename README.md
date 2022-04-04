@@ -2,6 +2,8 @@
 
 This is a hands-on training to explore the capabilities of automated remediations with Keptn. 
 
+https://github.com/keptn/keptn/issues/7042
+
 ## Prerequisites
 
 * Download **Keptn CLI** from [here](https://github.com/keptn/keptn/releases/tag/0.13.1) and install it on your machine.
